@@ -1,0 +1,191 @@
+body{
+    margin: 0px auto;
+    text-align: center;
+    background-image: url(images/background3.jpg);
+    background-attachment: fixed;
+    
+}
+#top{
+    width: 100%;
+    height: 80px;
+    background-color: bisque;
+    position: fixed;
+}
+#logo{
+    width: 200px;
+    height: 35px;
+    margin-left: 200px;
+    float: left;
+
+}
+#land{
+    width: 260px;
+    height: 30px;
+    float: right;
+    margin-right: 200px;
+}
+#land a{
+    font-family: 宋体;
+}
+#nav{
+    
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin-top: 5px;
+    background-color: blueviolet;
+}
+#navCenter{
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+}
+#navCenter ul{
+    list-style: none;
+    background-attachment: #6e2222;
+    height: auto;
+}
+
+#navCenter li{
+    float: left;
+    padding-left: 100px;
+    font-weight: 300;
+    line-height: 3px;
+    color: white;
+}
+#navCenter li a{
+    color: white;
+    text-decoration: none;
+}
+#navCenter li a:hover{
+    color: white;
+    background-color: rgb(70, 37, 37);
+}
+
+#container{
+    width: 1100px;
+    height: auto;
+    margin: 0px auto; 
+}
+#main{
+    width: 1100px;
+    margin: 0px auto;
+    
+}
+#Introduce{
+    width: 200px;
+    height: 50px;
+}
+#Introduce p{
+    font-size: 25px;
+    font-family: 楷体;
+    line-height: 0px;
+    font-weight: 900;
+    text-shadow: 0 0 2px rgb(107, 38, 38);
+}
+p2{
+    font-size: 8px;
+    color: gray;
+    line-height: 0px;
+ 
+}
+
+
+#image{
+    width: 780px;
+    float: left;
+}
+#imageRight{
+    width: 200px;
+    float: left;
+    margin-left: 2px;
+}
+#imageRight img{
+    margin-top: 2px;
+}
+
+/*介绍房间情况部分*/
+#intrruction{
+    width: 1100px;
+    float: left;
+    margin-top: 20px;
+}
+#intrructionLeft{
+    width: 300px;
+    float: left;
+    background-color: aliceblue;
+    margin-left: 20px;
+}
+#intrructionLeft p.head{
+    font-size: 30px;
+    font-family: 黑体；
+}
+#intrructionLeft p{
+    font-size: 10px;
+    color: gray;
+}
+
+
+/*介绍套餐*/
+#mainBottom{
+    width: 1100px;
+    height: auto;
+}
+#mainBottomLeft{
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+    background-color: bisque;
+    float: left;
+    margin-left: 20px;
+}
+#mainBottomLeft table{
+    margin: 0 auto;
+    color: grey;
+    line-height: 40px;
+}
+#mainBottomLeft p{
+    font-size: 30px;
+    line-height: 10px;
+    font-family: 宋体;
+    font-weight: 900;
+    text-shadow: 0 0 3px rgb(126, 55, 55);
+}
+
+#constructionIntroduce{
+    width: 1000px;
+    margin-left: 0px;
+    margin-top: 50px;
+    background-color: rgb(240, 236, 231);
+    float: left;
+}
+#constructionIntroduceLogo{
+    width: 100px;
+    float: left;
+    margin-top: 50px;
+}
+#constructionIntroduceleft{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 50px;
+    float: left;
+}
+fontType{
+    font-size: 30px;
+    font-family: 楷体;
+    text-shadow: 0 0 2px rgb(126, 55, 55);
+    text-align: center;
+}
+#viewIntroduce p{
+    text-indent: 15px;
+    text-align-last: left;
+    font-size: 12px;
+    font-family: 宋体；
+}
+#foot{
+    width: 1100px;
+    float: left;
+}
+#foot a{
+    text-decoration: none;
+}

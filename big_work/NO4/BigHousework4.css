@@ -1,0 +1,280 @@
+body{
+    margin: 0px auto;
+    text-align: center;
+    background-image: url(images/background1.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#top{
+    width: 100%;
+    height: 120px;
+    background-color: burlywood;
+    background-attachment: fixed;
+
+}
+#logo{
+    width: 200px;
+    height: 50px;
+    margin-left: 200px;
+    float: left;
+    background-attachment: fixed;
+    position: relative;
+}
+#welcome{
+    width: 260px;
+    height: 30px;
+    float: right;
+    margin-right: 200px;
+    background-attachment: fixed;
+}
+#welcome p{
+    line-height: 5px;
+}
+#nav{
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin-top: 50px;
+    background-attachment: fixed;
+    background-color: burlywood;
+
+}
+#navCenter{
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+}
+#navCenter ul{
+    list-style: none;
+    background-attachment: #6e2222;
+    height: auto;
+}
+
+#navCenter li{
+    float: left;
+    padding-left: 100px;
+    font-weight: 300;
+    line-height: 3px;
+    color: rgb(60, 148, 175);
+    list-style: none;
+}
+#navCenter li a:link{
+    text-decoration: none;
+}
+#navCenter li a:hover{
+    background-color: blueviolet;
+    text-decoration: none;
+}
+#navCenter li a:active{
+    color: black;
+}
+#main{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    opacity: 0.75;
+    
+}
+#mainTop{
+    width: 1200px;
+    margin-top: 50px;
+    
+}
+#mainTopTitle{
+    
+    width: 1200px;
+    height: 50px;
+    float: left;
+}
+#mainTopTitle p.p1{
+    font-family: 黑体;
+    font-size: 30px;
+    text-align: left;
+    line-height: 0px;
+}
+p2{
+    font-size: 18px;
+    color: rgb(124, 128, 126);
+    float: left;
+    text-align: left;
+    margin-left: 130px;
+}
+#mainTopTemputure{
+    width: 1200px;
+    text-align: left;
+    font-size: 18px;
+}
+#mainTopTemputure span.s1{
+    color: rgb(48, 51, 211);
+}
+#mainTopTemputure span.s2{
+    color: rgb(146, 135, 135);
+    font-size: 13px;
+}
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+#containerLeft{
+    width: 800px;
+    float: left;
+}
+#startGread{
+    width: 790px;
+    float: left;
+    border: 0.2px solid rgb(190, 184, 184);
+    margin-top: 10px;
+    background-color: antiquewhite;
+    opacity: 0.75;
+}
+#startGread span{
+    margin-left: 30px;
+    float: left;
+    font-family: 黑体;
+    font-size: 15px;
+    color: rgb(129, 83, 83);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#startGread span.s1{
+    background-color: rgb(114, 196, 114);
+}
+#paiming{
+    width: 800px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+#paimingLeft{
+    width: 250px;
+    float: left;
+}
+#paimingRight{
+    width: 500px;
+    margin-left: 20px;
+    float: left;
+    background-color: antiquewhite;
+    opacity: 0.75;
+}#paimingRight div.title{
+    width: 500px;
+    float: left;
+    
+}
+#paimingRight div.title p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1px;
+    font-family: 黑体;
+    text-align: left;
+    text-shadow: 2px 1px rgb(119, 56, 56);
+}
+#paimingRight div.top{
+    width: 500px;
+    float: left;
+}
+#paimingRight div.top p{
+    color: cadetblue;
+    font-size: 13px;
+    text-align: left; 
+    margin-top: -5px;
+}
+#paimingRight div.bottoom{
+    width: 500px;
+    float: left;
+}
+#paimingRight span{
+    color: #6e2222;
+    font-size: 12px;
+    float: left;
+    text-align: left;
+}
+#containerRight{
+    width:  350px;
+    background-color: antiquewhite;
+    opacity: 0.8;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#containerRight div.title{
+    width: 350px;
+    background-color: rgb(100, 214, 214);
+    float: left;
+}
+#containerRight div.content{
+    width: 350px;
+    height: 40px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.986);
+    border-bottom: 0.2px solid rgb(121, 116, 116);
+    text-align: center;
+    line-height: 2px;
+}
+#containerRight div.content a{
+    text-decoration: none;
+    color: cadetblue;
+}
+#containerRight div.content a:hover{
+    color: blueviolet;
+    text-shadow: 0 1px rebeccapurple; 
+}
+#bottom{
+    width: 1200px;
+    float: left;
+    margin-top: 50px;
+}
+#hotel{
+    width: 300px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: antiquewhite;
+}
+#hotel div.d1{
+    width: 200px;
+    float: left;
+    text-align: left;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+#hotel div.d2{
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    text-align: left;
+    color: red;
+    font-size: 20px;
+}
+#bottomTitle{
+    width: 1200px;
+    height: 50px;
+    float: left;
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(185, 179, 179);
+}
+#bottomTitle p.p1{
+    font-family: 黑体;
+    font-size: 30px;
+    text-align: left;
+    line-height: 0px;
+}
+#bottomTitle p.p2{
+    font-size: 18px;
+    color: rgb(124, 128, 126);
+    float: left;
+    text-align: left;
+    margin-top: -5px;
+}
+#footer{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: antiquewhite;
+    opacity: 0.75;
+}
+#footer p{
+    font-size: 12px;
+    color: rgb(117, 92, 92);
+}

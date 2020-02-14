@@ -1,0 +1,219 @@
+body{
+    margin: 0px auto;
+    text-align: center;
+    background-image: url(images/background3.jpg);
+    background-attachment: fixed;
+}
+#top{
+    width: 100%;
+    height: 120px;
+    background-color: burlywood;
+    background-attachment: fixed;
+    position: fixed;
+}
+#logo{
+    width: 200px;
+    height: 50px;
+    margin-left: 200px;
+    float: left;
+    background-attachment: fixed;
+    position: relative;
+}
+#welcome{
+    width: 260px;
+    height: 30px;
+    float: right;
+    margin-right: 200px;
+    background-attachment: fixed;
+}
+#welcome p{
+    line-height: 5px;
+}
+#nav{
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin-top: 30px;
+    background-attachment: fixed;
+}
+#navCenter{
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+}
+#navCenter ul{
+    list-style: none;
+    background-attachment: #6e2222;
+    height: auto;
+}
+
+#navCenter li{
+    float: left;
+    padding-left: 100px;
+    font-weight: 300;
+    line-height: 3px;
+    color: rgb(60, 148, 175);
+    list-style: none;
+}
+#navCenter li a:link{
+    text-decoration: none;
+}
+#navCenter li a:hover{
+    background-color: blueviolet;
+    text-decoration: none;
+}
+#navCenter li a:active{
+    color: black;
+}
+
+#container{
+    width: 1100px;
+    height: auto;
+    margin: 0px auto; 
+}
+#containerLleft{
+    width: 750px;
+    float: left;
+    margin-top: 30px;
+}
+#tag{
+    width: 1100px;
+    height: 100px;
+    text-align: left;
+    line-height: 10px;
+    float: left;
+}
+#tag p.small{
+    font-size: 10px;
+    color: blue;
+}
+#tag p.big{
+    font-size: 30px;
+    font-family: 黑体,宋体；
+}
+#mainPicture{
+    width: 750px;
+    float: left;
+}
+#introduce{
+
+    width: 750px;
+    height: 200px;
+    float: left;
+
+}
+#introduce p.title{
+    font-size: 25px;
+    font-weight: 400;
+    color: cadetblue;
+    line-height: 5px; 
+    text-align: left;
+    margin-bottom: 2px;
+}
+#introduce p.text{
+    font-size: 15pxpx;
+    font-weight: 400;
+    color: cadetblue; 
+    text-align: left;
+    margin-top: 10px;
+}
+#recommend{
+    width: 750px;
+    float: left;  
+    padding: 2px;
+}
+#recommendLeft{
+    width: 250px;
+    float: left;
+    margin-top: 15px;
+
+}
+#recommendRight{
+    width: 450px;
+    margin-left: 10px;
+    float: left;
+}
+#recommendRight p.title{
+    font-size: 25px;
+    text-align: left;
+}
+#recommendRight p.text{
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+}
+#containerRight{
+    width: 200px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 75px;
+}
+#page{
+    width: 200px;
+    height: 30px;
+    border-bottom: 1px solid rgb(95, 79, 79);
+}
+#page p{
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 5px;
+}
+#paihang{
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+}
+#paihangLeft{
+    width: 150px;
+    float: left;
+}
+#paihangRight{
+    width: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#paihangRight p.title{
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 黑体;
+    color: black;
+    line-height: 5px;
+    text-align: left;
+}
+#paihangRight p.text{
+    font-size: 10px;
+    color: rgb(160, 114, 114);
+    text-align: left;
+    letter-spacing: 2px;
+}
+#commenTitle{
+    width: 750px;
+    border-bottom: 1px solid rgb(156, 136, 136);
+    float: left;
+    margin-top: 30px;
+    text-align: left;
+}
+#commenTitle p{
+    color: rgb(138, 121, 121);
+    font-display: 20px;
+    font-family: 黑体;
+
+}
+#commment{
+    width: 750px;
+    border-top:  1px solid rgb(161, 143, 143);
+    border-bottom: 1px solid rgb(156, 136, 136);
+    float: left;  
+    padding: 2px;
+}
+#footer{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#footer p{
+    font-size: 12px;
+    color: rgb(117, 92, 92);
+}
